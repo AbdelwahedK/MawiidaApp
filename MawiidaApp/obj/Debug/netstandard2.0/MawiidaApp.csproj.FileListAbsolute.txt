@@ -8,10 +8,12 @@ D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\playAudioPage.xaml.g.cs
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\MawiidaApp.csproj.CoreCompileInputs.cache
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\MawiidaApp.AssemblyInfoInputs.cache
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\MawiidaApp.AssemblyInfo.cs
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\XamlC.stamp
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\MawiidaApp.dll
 D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\MawiidaApp.pdb
+D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\MawiidaApp.csprojAssemblyReference.cache
+D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\AddNewItemPage.xaml.g.cs
+D:\MawiidaApp\MawiidaApp\obj\Debug\netstandard2.0\Views\LogInPage.xaml.g.cs

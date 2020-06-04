@@ -40,11 +40,6 @@ namespace MawiidaApp.Views
             ItemsListView.SelectedItem = null;
         }
 
-        async void AddItem_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
-        }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -53,9 +48,9 @@ namespace MawiidaApp.Views
                 viewModel.LoadItemsCommand.Execute(null);
         }
 
-        private async void Add_Item(object sender, EventArgs e)
+        private void gotoLogIn(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new playAudioPage());
+            Navigation.PushModalAsync(new NavigationPage(new LogInPage()));
         }
     }
 }

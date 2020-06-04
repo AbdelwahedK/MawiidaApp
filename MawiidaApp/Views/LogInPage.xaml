@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MawiidaApp.Views.LogInPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImage="backgroung.jpg">
+    <StackLayout VerticalOptions="Center"
+                Orientation="Vertical" Padding="30"
+                x:Name="loginStack">
+        <StackLayout Orientation="Horizontal">
+            <!--<Image x:Name="logo" Source="logo.png" HorizontalOptions="CenterAndExpand" HeightRequest="100"  VerticalOptions="Center"/>-->
+            <Label Text="Log in" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <AbsoluteLayout Margin="0,5,20,0" HorizontalOptions="End" VerticalOptions="Center">
+                <Image HeightRequest="20" x:Name="userImg"
+                       Source="user.png"
+                       HorizontalOptions="EndAndExpand"
+                       WidthRequest="20"/>
+            </AbsoluteLayout>
+            <Entry HorizontalOptions="FillAndExpand"
+                x:Name="UserEntry"
+                   Keyboard="Email"
+                PlaceholderColor="White"
+                Placeholder="Username" 
+                Focused="UserEntry_Focused"
+                Unfocused="UserEntry_Unfocused"
+                />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <AbsoluteLayout Margin="0,5,20,0" HorizontalOptions="End" VerticalOptions="Center">
+                <Image HeightRequest="20" x:Name="passImg"
+                       HorizontalOptions="EndAndExpand"
+                       Source="lock.png"
+                       WidthRequest="20"/>
+            </AbsoluteLayout>
+            <Entry HorizontalOptions="FillAndExpand"
+                x:Name="PassEntry"
+                Focused="PassEntry_Focused"
+                Unfocused="PassEntry_Unfocused"
+                   PlaceholderColor="White"
+                Placeholder="Password"
+                IsPassword="True"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontAttributes="Italic" FontSize="12" TextColor="White">show</Label>
+            <Switch x:Name="showPass" IsToggled="False"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Login" HorizontalOptions="FillAndExpand" Clicked="LogIn_Clicked"
+                    BackgroundColor="White"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="Black"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

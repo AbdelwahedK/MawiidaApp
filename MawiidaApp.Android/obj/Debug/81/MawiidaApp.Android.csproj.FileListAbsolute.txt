@@ -230,3 +230,11 @@ D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\stamp\_CopyIntermediateAssemblies.
 D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\stamp\_CopyMdbFiles.stamp
 D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\stamp\_CopyPdbFiles.stamp
 D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\android\assets\machine.config
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\res\drawable\user.png
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\res\drawable\userclr.png
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\res\drawable\lock.png
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\res\drawable\lockclr.png
+D:\MawiidaApp\MawiidaApp.Android\obj\Debug\81\res\drawable\background.jpg
