@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid81"
+          "monoandroid90"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid81": {
+          "monoandroid90": {
             "projectReferences": {
               "D:\\MawiidaApp\\MawiidaApp\\MawiidaApp.csproj": {
                 "projectPath": "D:\\MawiidaApp\\MawiidaApp\\MawiidaApp.csproj"
@@ -40,7 +40,7 @@
         }
       },
       "frameworks": {
-        "monoandroid81": {
+        "monoandroid90": {
           "dependencies": {
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -77,6 +77,14 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "Xamarin.Firebase.Auth": {
+              "target": "Package",
+              "version": "[60.1142.1, )"
+            },
+            "Xamarin.Firebase.Core": {
+              "target": "Package",
+              "version": "[60.1142.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
@@ -138,6 +146,10 @@
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[4.0.1.5, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

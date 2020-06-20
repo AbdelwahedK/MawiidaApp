@@ -46,9 +46,17 @@
               "target": "Package",
               "version": "[4.0.1.5, )"
             },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "Xamarin.Firebase.iOS.Core": {
+              "target": "Package",
+              "version": "[6.6.6, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
@@ -121,6 +129,10 @@
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[4.0.1.5, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

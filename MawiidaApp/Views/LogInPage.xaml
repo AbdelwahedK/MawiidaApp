@@ -20,8 +20,9 @@
                        WidthRequest="20"/>
             </AbsoluteLayout>
             <Entry HorizontalOptions="FillAndExpand"
+                Text="{Binding Username}"
                 x:Name="UserEntry"
-                   Keyboard="Email"
+                Keyboard="Email"
                 PlaceholderColor="White"
                 Placeholder="Username" 
                 Focused="UserEntry_Focused"
@@ -37,6 +38,7 @@
                        WidthRequest="20"/>
             </AbsoluteLayout>
             <Entry HorizontalOptions="FillAndExpand"
+                Text="{Binding Password}"
                 x:Name="PassEntry"
                 Focused="PassEntry_Focused"
                 Unfocused="PassEntry_Unfocused"

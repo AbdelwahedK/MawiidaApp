@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[4.0.1.5, )"
             },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.0.1, )"

@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Plugin.Permissions;
 using Plugin.CurrentActivity;
+using Firebase;
 
 namespace MawiidaApp.Droid
 {
@@ -23,6 +24,7 @@ namespace MawiidaApp.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             //CrossCurrentActivity.Current.Init(this, savedInstanceState);
+            FirebaseApp.InitializeApp(Application.Context);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

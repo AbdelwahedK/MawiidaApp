@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "caeb6958bf95dcbec76f92a3667f4746cfe6763a"
+    "signature": "b2806ddf8f3f4e79ee0e22f9f01d618b6e74de74"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xam.Plugin.Media": "4.0.1.5",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Plugin.FilePicker": "2.1.41"
@@ -52,6 +53,7 @@
           }
         }
       },
+      "Xamarin.Build.Download/0.10.0": {},
       "Xamarin.Essentials/1.0.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -129,6 +131,13 @@
       "sha512": "sha512-a5l/M2Tl06BqBX/uhM/pr+q1jDkh2tRQr5Ne9rjAuD9VYn5STE+7kVFTzIUNPMnMr9PZLJkWP5WAr/tBN5oepw==",
       "path": "xam.plugin.media/4.0.1.5",
       "hashPath": "xam.plugin.media.4.0.1.5.nupkg.sha512"
+    },
+    "Xamarin.Build.Download/0.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XiQNxx6Jox00O80sJRlZv6jXDZ/r3KC7SMwzQNQcD1gZ+vsZyJH3LcSpdJ5NiZhRrWZlTGNSbooHsOBF7lBOyQ==",
+      "path": "xamarin.build.download/0.10.0",
+      "hashPath": "xamarin.build.download.0.10.0.nupkg.sha512"
     },
     "Xamarin.Essentials/1.0.1": {
       "type": "package",
